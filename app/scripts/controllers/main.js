@@ -8,10 +8,7 @@
  * Controller of the housingProSeApp
  */
 angular.module('housingProSeApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, cfg) {
+
+  	$scope.test = "config.API_URL";
   });
